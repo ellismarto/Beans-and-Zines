@@ -10,3 +10,7 @@ a {
     font-weight: 500;
     font-style: normal;
 }
+
+.justify-content-end{
+    padding-right: 30px;
+}
