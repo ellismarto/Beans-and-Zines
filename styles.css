@@ -1,8 +1,15 @@
 h1 {
-    font-family: "poster-cut-neue", sans-serif;
-    font-weight: 400;
+    font-family: "urbane-rounded", sans-serif;
+    font-weight: 900;
     font-style: normal;
     font-size: 60px;
+    color: #826348;
+    padding-top: 15%;
+    padding-right: 20%;
+}
+
+p {
+    padding-right: 20%;
 }
 
 a {
@@ -11,6 +18,10 @@ a {
     font-style: normal;
 }
 
-.justify-content-end{
+.justify-content-end {
     padding-right: 30px;
+}
+
+.col-5 {
+    padding-left: 70px;
 }
