@@ -1,15 +1,13 @@
 h1 {
-    font-family: "urbane-rounded", sans-serif;
-    font-weight: 900;
+    font-family: "greycliff-cf", sans-serif;
+    font-weight: 700;
     font-style: normal;
-    font-size: 60px;
+    font-size: 3vw;
     color: #826348;
-    padding-top: 15%;
-    padding-right: 20%;
 }
 
-p {
-    padding-right: 20%;
+.main-txt {
+    padding-right: 15%;
 }
 
 a {
@@ -22,6 +20,14 @@ a {
     padding-right: 30px;
 }
 
-.col-5 {
-    padding-left: 70px;
+.main-title {
+    padding-top: 25%;
+}
+
+.img-main-home {
+    padding-top: 10%;
+}
+
+.num-txt-box {
+    padding-top: 20%;
 }
