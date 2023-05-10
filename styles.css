@@ -2,7 +2,7 @@ h1 {
     font-family: "greycliff-cf", sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 3vw;
+    font-size: 4vw;
     color: #826348;
 }
 
@@ -29,7 +29,7 @@ a {
 }
 
 .main-title {
-    padding-top: 25%;
+    padding-top: 17%;
     padding-right: 15%;
 }
 
@@ -49,4 +49,14 @@ a {
 footer {
     background-color: #506254;
     max-height: 200px;
+}
+
+.nav-link:hover {
+    color: #506254;
+    font-weight: 900;
+    transition: 0.5s;
+}
+
+.nav-link {
+    font-size: 1vw;
 }
