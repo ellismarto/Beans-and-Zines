@@ -1,9 +1,42 @@
+.container {
+  max-width: 960px;
+}
+
+/*
+ * Custom translucent site header
+ */
+
+
+/*
+ * Extra utilities
+ */
+
+.flex-equal > * {
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    flex: 1;
+  }
+}
+
 h1 {
     font-family: "greycliff-cf", sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 4vw;
     color: #826348;
+}
+
+h2 {
+    color: white;
+    font-size: 3vw;
+    font-weight: 300;
+}
+
+.itm-desc {
+    color: white;
+    font-size: 1vw;
 }
 
 .bstslr {
@@ -55,4 +88,19 @@ footer {
 
 .nav-link {
     font-size: 1vw;
+}
+
+
+
+
+
+
+.ftr-txt {
+    color: white;
+    font-size: 1vw;
+}
+
+.mnu-box {
+    display: flex;
+    justify-content: space-evenly;
 }
