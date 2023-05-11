@@ -56,3 +56,11 @@ footer {
 .nav-link {
     font-size: 20px;
 }
+
+.mnu-title {
+    font-family: "greycliff-cf", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 75px;
+    color: #826348;
+}
