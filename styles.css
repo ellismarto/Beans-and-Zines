@@ -71,3 +71,16 @@ h3 {
     font-style: normal;
     color: #826348;
 }
+
+.accord-style {
+    background-color: #506254;
+}
+
+.accord-txt {
+    color: white;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #809a85;
+    color: white;
+}
