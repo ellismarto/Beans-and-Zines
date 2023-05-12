@@ -157,6 +157,9 @@ h4 {
     --bs-btn-disabled-color: #fff;
     --bs-btn-disabled-bg: #3a483d;
     --bs-btn-disabled-border-color: #3f4d42;
+    font-family: "urbane-rounded", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
 .ordr-btn {
