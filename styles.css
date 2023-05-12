@@ -96,6 +96,11 @@ form {
     color: white;
 }
 
+.mag-frm {
+    background-color: white;
+    color: black;
+}
+
 .mailing-txt {
     color: white;
 }
@@ -128,6 +133,17 @@ h4 {
     font-weight: 500;
     font-style: normal;
     color: white;
+}
+
+.mag-frm-title {
+    color: black;
+}
+
+.mag-frm-txt {
+    font-family: "greycliff-cf", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: rgb(82, 82, 82);
 }
 
 .nav-link-2:hover {
