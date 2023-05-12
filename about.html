@@ -155,7 +155,7 @@
                               <input type="email" class="form-control" id="email" placeholder="Magazine Name...">
                             </div>
                             <br>
-                          <button class="w-100 btn btn-primary btn-lg" type="submit">Send</button>
+                          <button class="w-100 btn btn-primary btn-lg" id="liveToastBtn2" type="button">Send</button>
                         </form>
                       </div>
                     </div>
@@ -232,6 +232,18 @@
         </div>
         <div class="toast-body">
           Thank you for subsribing to our newsletter!
+        </div>
+      </div>
+
+      <div id="liveToast2" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-header">
+          <img src="images/Beans and Zines logos.png" class="rounded me-2" style="width: 10%;" alt="...">
+          <strong class="me-auto">Beans & Zines</strong>
+          <small>now</small>
+          <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+        <div class="toast-body">
+          Thank you for telling us your favourite magazine!
         </div>
       </div>
     </div>
