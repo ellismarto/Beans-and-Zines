@@ -86,7 +86,7 @@
                     <span class="input-group-text">Your Text</span>
                     <textarea class="form-control" aria-label="With textarea"></textarea>
                   </div>
-                  <button type="submit" class="btn btn-primary">Send</button>
+                  <button type="button" id="liveToastBtn2" class="btn btn-primary">Send</button>
                 </form>
               </div>
             </div>
@@ -117,7 +117,7 @@
             <div class="d-flex flex-column flex-sm-row w-100 gap-2">
               <label for="newsletter1" class="visually-hidden">Email address</label>
               <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-              <button class="btn btn-primary" type="button">Subscribe</button>
+              <button class="btn btn-primary" id="liveToastBtn" type="button">Subscribe</button>
             </div>
           </form>
         </div>
@@ -127,6 +127,34 @@
       </div>
     </footer>
 
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+      <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-header">
+          <img src="images/Beans and Zines logos.png" class="rounded me-2" style="width: 10%;" alt="...">
+          <strong class="me-auto">Beans & Zines</strong>
+          <small>now</small>
+          <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+        <div class="toast-body">
+          Thank you for subsribing to our newsletter!
+        </div>
+      </div>
+
+      <div id="liveToast2" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-header">
+          <img src="images/Beans and Zines logos.png" class="rounded me-2" style="width: 10%;" alt="...">
+          <strong class="me-auto">Beans & Zines</strong>
+          <small>now</small>
+          <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+        <div class="toast-body">
+          Thank you for your enquiry!
+        </div>
+      </div>
+    </div>
+
+
     <script src="js/bootstrap.min.js"></script>
+    <script src="site.js"></script>
 </body>
 </html>
