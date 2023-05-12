@@ -1,3 +1,8 @@
+.container {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
 h1 {
     font-family: "greycliff-cf", sans-serif;
     font-weight: 700;
@@ -55,6 +60,7 @@ footer {
 
 .nav-link {
     font-size: 20px;
+    transition: 0.5s;
 }
 
 .mnu-title {
@@ -83,4 +89,79 @@ h3 {
 .accordion-button:not(.collapsed) {
     background-color: #809a85;
     color: white;
+}
+
+form {
+    background-color: #506254;
+    color: white;
+}
+
+.mailing-txt {
+    color: white;
+}
+
+.mailing-txt-2 {
+    color: rgb(180, 180, 180);
+}
+
+.order-btn {
+    padding-top: 90%;
+}
+
+.link-sect {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ftr-form {
+    color: rgb(185, 185, 185);
+}
+
+.ftr-txt {
+    color: white;
+    font-size: 1vw;
+}
+
+h4 {
+    font-family: "greycliff-cf", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+}
+
+.nav-link-2:hover {
+    color: #ffebd4;
+    font-weight: 900;
+    transition: 0.5s;
+}
+
+.nav-link-2 {
+    font-size: 20px;
+    text-decoration-line: none;
+    transition: 0.5s;
+}
+
+.btn-primary-2 {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #506254;
+    --bs-btn-border-color: #3f4d42;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #3a483d;
+    --bs-btn-hover-border-color: #3f4d42;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #3a483d;
+    --bs-btn-active-border-color: #3f4d42;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #3a483d;
+    --bs-btn-disabled-border-color: #3f4d42;
+}
+
+.ordr-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }

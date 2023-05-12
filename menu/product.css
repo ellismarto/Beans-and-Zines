@@ -1,5 +1,5 @@
 .container {
-  max-width: 960px;
+  max-width: 100%;
 }
 
 /*
@@ -95,12 +95,20 @@ footer {
 
 .nav-link {
     font-size: 20px;
+    transition: 0.5s;
 }
 
+.nav-link-2:hover {
+    color: #ffebd4;
+    font-weight: 900;
+    transition: 0.5s;
+}
 
-
-
-
+.nav-link-2 {
+    font-size: 20px;
+    text-decoration-line: none;
+    transition: 0.5s;
+}
 
 .ftr-txt {
     color: white;
@@ -110,4 +118,49 @@ footer {
 .mnu-box {
     display: flex;
     justify-content: space-evenly;
+}
+
+h4 {
+    font-family: "greycliff-cf", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+}
+
+.ftr-form {
+    color: rgb(185, 185, 185);
+}
+
+label {
+    background-color: #506254;
+}
+
+.link-sect {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.btn-primary-2 {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #506254;
+    --bs-btn-border-color: #3f4d42;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #3a483d;
+    --bs-btn-hover-border-color: #3f4d42;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #3a483d;
+    --bs-btn-active-border-color: #3f4d42;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #3a483d;
+    --bs-btn-disabled-border-color: #3f4d42;
+}
+
+.ordr-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
